@@ -1,4 +1,8 @@
-
+b {
+  display:inline-block;
+  text-align: center;
+  color: aliceblue;
+}
 div {
   text-align: center;
 }
@@ -16,7 +20,7 @@ h5{
     border-style: groove;
     border-width: 5px;
     border-color: rgb(0, 0, 0);
-
+    
     border-radius: 10px;
     
 }
@@ -46,6 +50,7 @@ form {
     text-align: center;
 }
 td {
+  
     border: 1px solid;
     color: chartreuse;
     text-align: right;
@@ -67,9 +72,10 @@ td {
     display: flex;
     background-color: rgb(53, 45, 45);
     color: aqua;
-    height: 1000px;
+    height: 2000px;
     justify-content: center;
     align-items: stretch
+    
     
   }
   @keyframes example {
@@ -116,10 +122,27 @@ input {
 .item {
   order: 5;
   flex-basis:1250px;
-  height: 1000px;
-  align-self:center;
-  background-color: rgb(0, 60, 255);
+  height: 2000px;
+  align-self:left;
+  background-color: rgb(187, 180, 180);
 }
-.ellipsis {
+tr {
+  display: inline;
+ 
+}
+a {
   text-align: center;
+  display:inline-flex;
+  width: 400px;
+  color: aliceblue;
+}
+ul {
+  display:inline-block;
+}
+.parent {
+  display:inline-flex;
+  height: 200px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
 }
